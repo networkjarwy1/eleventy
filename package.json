@@ -8,18 +8,21 @@
     "prebuild": "del-cli ./dist",
     "build": "eleventy"
   },
-  "author": "Dice-Sensei",
+  "author": "Jaroslav Vízner",
   "private": "true",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dice-Sensei/spselit-eleventy.git"
+    "url": "git+https://github.com/networkjarwy1/eleventy.git"
   },
   "bugs": {
-    "url": "https://github.com/Dice-Sensei/spselit-eleventy/issues"
+    "url": "https://github.com/networkjarwy1/eleventy/issues"
   },
-  "homepage": "https://github.com/Dice-Sensei/spselit-eleventy#readme",
+  "homepage": "https://github.com/networkjarwy1/spselit-eleventy#readme",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "del-cli": "^6.0.0"
+  },
+  "dependencies": {
+    "eleventy": "^1.0.7"
   }
 }
